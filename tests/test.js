@@ -17,7 +17,7 @@ describe('file to be tested', () => {
     });
   });
 
-  context('anothere function to be tested', () => {
+  context('another function to be tested', () => {
     it('should do something else', () => {
       assert.deepStrictEqual({ name: 'Roman' }, { name: 'Roman' });
     });
