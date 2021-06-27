@@ -1,0 +1,29 @@
+{
+  "name": "node-unit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.15"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "cross-env": "^7.0.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^9.0.1",
+    "nyc": "^15.1.0",
+    "rewire": "^5.0.0",
+    "sinon": "^11.1.1",
+    "sinon-chai": "^3.7.0",
+    "supertest": "^6.1.3"
+  }
+}
