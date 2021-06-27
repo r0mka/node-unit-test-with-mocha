@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "cross-env NODE_ENV=development mocha \"./{,!(node_modules)/**/}*.test.js\" --exit",
+    "test2": "mocha \"./tests/**/*.js\" --recursive",
+    "coverage": "cross-env NODE_ENV=development nyc --reporter=text npm test"
   },
   "keywords": [],
   "author": "",
